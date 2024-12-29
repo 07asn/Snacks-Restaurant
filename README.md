@@ -28,6 +28,6 @@ This project demonstrates the basics of JavaScript, including arithmetic operati
 ---
 
 ## 📸 Resource
-![Exercise 1](https://drive.google.com/uc?export=view&id=185co9LDDkUxodvsUZiJomVElYtUv9dpE)
+![Exercise 1](https://drive.google.com/uc?export=view&id=1lXagX6cs5ZYDhsA514M-C5nicZD78ptT)
 
 ![Exercise 2](https://drive.google.com/uc?export=view&id=1metppW0fY7pGz_lv9UqTlQkL2A6Vq1Xx)
