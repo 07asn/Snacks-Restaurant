@@ -1,3 +1,4 @@
+//EX1
 let Customername = prompt("Enter Your Name");
 let gender = prompt('Enter Your Gender ("male" | "female")');
 
@@ -9,10 +10,7 @@ if (gender == "male") {
     alert(`Welcome ${Customername}`);
 }
 
-let checkOrder = confirm(
-    'Do You Want to Order: "shawarma" | "zinger" | "burger" ?'
-);
-
+let checkOrder = confirm('Do You Want to Order: "shawarma" | "zinger" | "burger" ?');
 let order;
 
 if (checkOrder) {
@@ -24,7 +22,7 @@ if (checkOrder) {
     console.log(`Name: ${Customername} , Order: No current order`);
 }
 
-
+//Q2
 let num = Math.floor(Math.random() * 10);
 switch(num){
     case 1: 
