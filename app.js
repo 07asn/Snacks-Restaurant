@@ -1,25 +1,29 @@
-//EX1
-let Customername = prompt("Enter Your Name");
-let gender = prompt('Enter Your Gender ("male" | "female")');
+//EX1 & EX3
+const userInfo = [];
 
-if (gender == "male") {
-    alert(`Welcome Mr. ${Customername}`);
-} else if (gender == "female") {
-    alert(`Welcome Ms. ${Customername}`);
-} else {
-    alert(`Welcome ${Customername}`);
+userInfo[0] = prompt("Enter Your Name");
+userInfo[1] = prompt('Enter Your Gender ("male" | "female")');
+askGender();
+
+function askGender() {
+    if (userInfo[1] == "male") {
+        alert(`Welcome Mr. ${userInfo[0]}`);
+    } else if (userInfo[1] == "female") {
+        alert(`Welcome Ms. ${userInfo[0]}`);
+    } else {
+        alert(`Welcome ${userInfo[0]}`);
+    }
 }
 
 let checkOrder = confirm('Do You Want to Order: "shawarma" | "zinger" | "burger" ?');
-let order;
 
 if (checkOrder) {
-    order = prompt('Write Order Name: "shawarma" | "zinger" | "burger"');
+    userInfo[2] = prompt('Write Order Name: "shawarma" | "zinger" | "burger"');
     alert("Your Order is being prepared");
-    console.log(`Name: ${Customername} , Order: ${order}`);
+    console.log(`Name: ${userInfo[0]} , Order: ${userInfo[2]}`);
 } else {    
-    alert(`Goodbye ${Customername}`);
-    console.log(`Name: ${Customername} , Order: No current order`);
+    alert(`Goodbye ${userInfo[0]}`);
+    console.log(`Name: ${userInfo[0]} , Order: No current order`);
 }
 
 //Q2
@@ -79,4 +83,8 @@ switch(num){
         console.log("PLEASE TRY AGAIN");
         break;
     }    
+}
+
+for (let index = 0; index < userInfo.length; index++) {
+    console.log(userInfo[index]);
 }
