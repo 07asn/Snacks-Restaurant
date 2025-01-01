@@ -92,6 +92,7 @@ function printUserInfo(){
         console.log(userInfo[index]);
 }
 
+//EX4
 function viewUserInfo(userInfo){
     //Select
     const mainContainer = document.querySelector('.container'); 
