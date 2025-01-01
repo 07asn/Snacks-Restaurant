@@ -1,30 +1,35 @@
+/* General Body Styling */
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f9;
 }
 
+/* Main Container Styling */
 .container {
-    text-align: center;
-    background: #ccf2f9;
-    padding: 20px;
+    background: #ffffff;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 20px 20px 8px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
 }
 
+/* Header Styling */
 .container h1 {
-    margin-bottom: 20px;
     color: #333;
+    margin-bottom: 20px;
 }
 
+/* Button Styling */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
     font-size: 2rem;
     color: #fff;
     background: #007BFF;
@@ -32,8 +37,36 @@ body {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 2rem;
 }
 
 .btn:hover {
-    background: #000000;
+    background-color: #0056b3;
+}
+
+/* Ordered List Container Styling */
+.ol-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ordered List Styling */
+.ol-container ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.ol-container ol li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+    padding: 5px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    list-style: decimal inside;
 }
