@@ -1,33 +1,45 @@
-# JavaScript (Loops + IF ELSE) Homework
+# JavaScript Homework: Forms, DOM Manipulation, and Event Handling
 
 ## 📖 Overview
-This project demonstrates the basics of JavaScript, including arithmetic operations, user input, loops, and working with if statement. 
+This homework demonstrates the use of forms, event handling, and dynamic DOM manipulation in JavaScript. You'll collect user input through form elements and display the result in the HTML, while also handling form events.
 
 ---
 
 ## 🛠️ Technology Used
-- **HTML**: For structure.
-- **CSS**: For Styling.
-- **JavaScript**: For logic and functionality.
-- **Browser Console**: To log outputs and debug.
+- **HTML**: To define the structure of the page and create the form.
+- **CSS**: For styling form elements and output display.
+- **JavaScript**: For dynamic DOM manipulation, event handling, and form submission.
 
 ---
 
 ## 📚 Topics Covered
-- Arithmetic operations (e.g., addition, multiplication, division).
-- Reading user input using `prompt` and `confirm`.
-- Displaying output using `alert` and `console.log`.
-- Using loops (`for`, `while`, `do while`).
-- condition statement (`if-else`, `switch`).
+- **Forms**: Using form elements to gather user input.
+- **Event Handling**: Handling user interactions with events like `submit`, `focus`, and `blur`.
+- **DOM Manipulation**: Manipulating the DOM to display the collected user information.
+- **Conditional Logic**: Using conditional statements to customize the interaction based on user input.
 
 ---
 
-## 🌐 Live Preview
-[Click here to see the live preview](https://07asn.github.io/Snacks-Restaurant/)
+## 📄 Questions
+
+### Q1: Create a User Information Form
+In this task, I will create a form with the following fields:
+- **Username**: A text input.
+- **Age**: A number input.
+- **Gender**: A dropdown (`<select>`) with options for "Male", "Female", and "Other".
+- **Order Type**: A dropdown (`<select>`) with options for "Shawarma", "Zinger", and "Burger".
+- **Order Option**: Radio buttons for the order choice ("Shawarma", "Zinger", or "Burger").
 
 ---
 
-## 📸 Resource
-![Exercise 1](https://drive.google.com/uc?export=view&id=1lXagX6cs5ZYDhsA514M-C5nicZD78ptT)
+### Q2: Display User Info after Form Submission
+After collecting the data from the form in Q1, dynamically display the following user information:
+- Username
+- Age
+- Gender
+- Order Type
+- Selected Order Option
 
-![Exercise 2](https://drive.google.com/uc?export=view&id=1metppW0fY7pGz_lv9UqTlQkL2A6Vq1Xx)
+The information should be shown in a list format on the page once the user submits the form.
+
+---
