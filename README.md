@@ -1,7 +1,7 @@
 # JavaScript Homework: Forms, DOM Manipulation, and Event Handling
 
 ## 📖 Overview
-This homework demonstrates the use of forms, event handling, and dynamic DOM manipulation in JavaScript. You'll collect user input through form elements and display the result in the HTML, while also handling form events.
+This homework demonstrates the use of forms, event handling, and dynamic DOM manipulation in JavaScript. I'll collect user input through form elements and display the result in the HTML, while also handling form events.
 
 ---
 
