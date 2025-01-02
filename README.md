@@ -30,7 +30,6 @@ In this task, I will create a form with the following fields:
 - **Order Type**: A dropdown (`<select>`) with options for "Shawarma", "Zinger", and "Burger".
 - **Order Option**: Radio buttons for the order choice ("Shawarma", "Zinger", or "Burger").
 
----
 
 ### Q2: Display User Info after Form Submission
 After collecting the data from the form in Q1, dynamically display the following user information:
